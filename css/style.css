@@ -450,6 +450,48 @@ footer {
   font-weight: 700;
 }
 
+.ca {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: min(100%, 520px);
+  margin: 0 0 22px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(255, 247, 238, 0.7);
+  text-align: left;
+}
+
+.ca span,
+.ca em {
+  font-size: 11px;
+  font-style: normal;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--caramel);
+  font-weight: 700;
+}
+
+.ca code {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: var(--sora);
+  font-size: 12px;
+  color: var(--espresso);
+}
+
+.ca:hover {
+  background: var(--ivory);
+}
+
+.ca-short {
+  font-size: 13px;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;

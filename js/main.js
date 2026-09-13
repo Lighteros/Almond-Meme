@@ -122,6 +122,23 @@
     });
   });
 
+  const copyCa = document.getElementById("copyCa");
+  const copyCaLabel = document.getElementById("copyCaLabel");
+  if (copyCa) {
+    copyCa.addEventListener("click", async () => {
+      const value = copyCa.dataset.ca || "";
+      try {
+        await navigator.clipboard.writeText(value);
+        if (copyCaLabel) copyCaLabel.textContent = "Copied";
+      } catch {
+        if (copyCaLabel) copyCaLabel.textContent = "Failed";
+      }
+      window.setTimeout(() => {
+        if (copyCaLabel) copyCaLabel.textContent = "Copy";
+      }, 1600);
+    });
+  }
+
   if (husk && grove) {
     husk.addEventListener("click", () => {
       grove.classList.toggle("is-open");
