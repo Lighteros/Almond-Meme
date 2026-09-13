@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Almond | $Almond on Robinhood Chain</title>
+    <meta
+      name="description"
+      content="Almond ($Almond) is the Anti-AI symbol on Robinhood Chain. Almonds are better than AI. Send a singular almond."
+    />
+    <link rel="icon" type="image/webp" href="logo.webp" />
+    <link rel="apple-touch-icon" href="logo.webp" />
+    <link rel="preload" as="image" href="logo.webp" />
+    <meta property="og:title" content="Almond | $Almond" />
+    <meta
+      property="og:description"
+      content="The Anti-AI symbol on Robinhood Chain. Almonds are better than AI."
+    />
+    <meta property="og:image" content="logo.webp" />
+    <meta name="theme-color" content="#F6E8D4" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Sora:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <canvas id="orchard" aria-hidden="true"></canvas>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="warmth" id="warmth" aria-hidden="true"></div>
+    <div class="ridge" id="ridge" aria-hidden="true"></div>
+
+    <header class="hull" id="hull">
+      <a class="mark" href="#hero">
+        <span class="mark-seed">
+          <img src="logo.webp" alt="Almond" />
+        </span>
+        <span class="mark-name">Almond</span>
+      </a>
+      <nav class="grove" id="grove" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#howtobuy">How to Buy</a>
+        <a href="#chart">Chart</a>
+        <a href="#joinus">Join Us</a>
+      </nav>
+      <div class="hull-end">
+        <a
+          class="pill"
+          href="https://app.uniswap.org/swap?chain=robinhood"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="icons/uniswap.svg" alt="" />
+          <span>Buy $Almond</span>
+        </a>
+        <button class="husk" id="husk" type="button" aria-label="Open menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-orbit" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+
+        <div class="hero-core">
+          <figure class="kernel" id="kernel">
+            <div class="kernel-halo"></div>
+            <img src="logo.webp" alt="A single almond" />
+          </figure>
+
+          <div class="hero-copy">
+            <p class="kicker reveal">Robinhood Chain memecoin</p>
+            <h1 class="reveal" data-delay="60">
+              <span class="word">Almond</span>
+            </h1>
+            <p class="manifesto reveal" data-delay="120">
+              Almonds are better than AI.
+            </p>
+            <p class="lede reveal" data-delay="180">
+              The almond has become the Anti-AI symbol. One seed. One joke that
+              turned into a GIGA narrative. We send a singular almond.
+            </p>
+
+            <dl class="chips reveal" data-delay="220">
+              <div>
+                <dt>Name</dt>
+                <dd>Almond</dd>
+              </div>
+              <div>
+                <dt>Symbol</dt>
+                <dd>$Almond</dd>
+              </div>
+              <div>
+                <dt>Chain</dt>
+                <dd>Robinhood</dd>
+              </div>
+            </dl>
+
+            <div class="hero-actions reveal" data-delay="280">
+              <a
+                class="btn btn-solid magnet"
+                href="https://app.uniswap.org/swap?chain=robinhood"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="icons/uniswap.svg" alt="" />
+                Buy on Uniswap
+              </a>
+              <a
+                class="btn btn-line magnet"
+                href="https://dexscreener.com/robinhood"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="icons/dexscreener.svg" alt="" />
+                Dexscreener
+              </a>
+              <a
+                class="btn btn-line magnet"
+                href="https://x.com/almondai_rh"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="icons/x.svg" alt="" />
+                Follow
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="ticker" aria-hidden="true">
+          <div class="ticker-track">
+            <span>Almonds are better than AI</span>
+            <span>The Anti-AI Symbol</span>
+            <span>Send a singular almond</span>
+            <span>Name Almond</span>
+            <span>Symbol Almond</span>
+            <span>Robinhood Chain</span>
+            <span>Almonds are better than AI</span>
+            <span>The Anti-AI Symbol</span>
+            <span>Send a singular almond</span>
+            <span>Name Almond</span>
+            <span>Symbol Almond</span>
+            <span>Robinhood Chain</span>
+          </div>
+        </div>
+
+        <svg
+          class="wave"
+          viewBox="0 0 1440 120"
+          preserveAspectRatio="none"
+          aria-hidden="true"
+        >
+          <path
+            d="M0,72 C240,120 480,12 720,48 C960,84 1200,12 1440,60 L1440,120 L0,120 Z"
+          ></path>
+        </svg>
+      </section>
+
+      <section class="about" id="about">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <p class="kicker">About</p>
+            <h2>This might actually be a GIGA narrative.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-prose">
+              <blockquote class="quote reveal">
+                Everyone is saying almonds are better than AI.
+              </blockquote>
+              <p class="reveal" data-delay="80">
+                People are making memes out of it now. What started as a joke
+                hardened into an Anti-AI trend, the same kind of cultural
+                reflex as the Qenis of AI, except the mascot is quieter. A
+                single nut. No prompt. No model. No generate button.
+              </p>
+              <p class="reveal" data-delay="140">
+                The almond has become the Anti-AI symbol. Endless tweets. A
+                feed that keeps repeating the same clean idea until it feels
+                inevitable. If machines want infinite output, we answer with
+                one object.
+              </p>
+              <p class="reveal" data-delay="200">
+                We should send a singular almond. That is the whole thesis.
+                Name Almond. Symbol Almond. A Robinhood Chain memecoin for the
+                crowd that would rather hold a seed than another synthetic
+                face.
+              </p>
+            </div>
+
+            <aside class="specimen reveal" data-delay="120">
+              <div class="specimen-ring">
+                <img src="logo.webp" alt="Almond mark" />
+              </div>
+              <ul class="facts">
+                <li>
+                  <span>Name</span>
+                  <strong>Almond</strong>
+                </li>
+                <li>
+                  <span>Symbol</span>
+                  <strong>Almond</strong>
+                </li>
+                <li>
+                  <span>Chain</span>
+                  <strong>Robinhood</strong>
+                </li>
+                <li>
+                  <span>Stance</span>
+                  <strong>Anti-AI</strong>
+                </li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="howtobuy" id="howtobuy">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <p class="kicker">How to Buy</p>
+            <h2>Four quiet steps to hold the seed.</h2>
+            <p class="section-lead">
+              $Almond lives on Robinhood Chain. Wallet, bridge, swap, then
+              watch the chart. Confirm the contract before you send.
+            </p>
+          </div>
+
+          <ol class="steps">
+            <li class="step reveal">
+              <span class="step-n">01</span>
+              <h3>Open a wallet</h3>
+              <p>
+                Use a wallet that can add custom networks. Keep the seed phrase
+                offline. This is how you hold $Almond.
+              </p>
+            </li>
+            <li class="step reveal" data-delay="80">
+              <span class="step-n">02</span>
+              <h3>Arrive on Robinhood</h3>
+              <p>
+                Add Robinhood Chain and fund the wallet with ETH on that
+                network. The explorer is there if you need a receipt.
+              </p>
+              <a
+                class="text-link"
+                href="https://robinhoodchain.blockscout.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="icons/blockscout.svg" alt="" />
+                Robinhood Blockscout
+              </a>
+            </li>
+            <li class="step reveal" data-delay="160">
+              <span class="step-n">03</span>
+              <h3>Swap on Uniswap</h3>
+              <p>
+                Open Uniswap on Robinhood Chain, paste the $Almond contract,
+                and swap. Check the ticker twice.
+              </p>
+              <a
+                class="text-link"
+                href="https://app.uniswap.org/swap?chain=robinhood"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="icons/uniswap.svg" alt="" />
+                Open Uniswap
+              </a>
+            </li>
+            <li class="step reveal" data-delay="240">
+              <span class="step-n">04</span>
+              <h3>Read the chart</h3>
+              <p>
+                Confirm the fill on Dexscreener Robinhood pairs. That is the
+                only chart this site embeds.
+              </p>
+              <a
+                class="text-link"
+                href="https://dexscreener.com/robinhood"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="icons/dexscreener.svg" alt="" />
+                Open Dexscreener
+              </a>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="chart" id="chart">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <p class="kicker">Chart</p>
+            <h2>$Almond on Dexscreener</h2>
+            <p class="section-lead">
+              Live Robinhood Chain pairs only. No third-party widgets. The
+              market is the embed.
+            </p>
+            <a
+              class="btn btn-line magnet"
+              href="https://dexscreener.com/robinhood"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="icons/dexscreener.svg" alt="" />
+              Open Dexscreener Robinhood
+            </a>
+          </div>
+
+          <div class="chart-frame reveal" data-delay="100">
+            <iframe
+              title="Dexscreener Robinhood chart for Almond"
+              src="https://dexscreener.com/robinhood?embed=1&theme=light&trades=0&info=0"
+              loading="lazy"
+              allow="clipboard-write"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="joinus" id="joinus">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <p class="kicker">Join Us</p>
+            <h2>Send a singular almond.</h2>
+            <p class="section-lead">
+              The timeline is already doing the work. Endless tweets. Follow
+              the feed and keep the joke exact.
+            </p>
+          </div>
+
+          <figure class="banner-frame reveal">
+            <img
+              src="banner.webp"
+              alt="Almond wordmark with a single almond"
+            />
+          </figure>
+
+          <div class="join-row reveal" data-delay="100">
+            <a
+              class="btn btn-solid magnet"
+              href="https://x.com/almondai_rh"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="icons/x.svg" alt="" />
+              Follow @almondai_rh
+            </a>
+            <a
+              class="btn btn-line magnet"
+              href="https://dexscreener.com/robinhood"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="icons/dexscreener.svg" alt="" />
+              Chart
+            </a>
+            <a
+              class="btn btn-line magnet"
+              href="https://app.uniswap.org/swap?chain=robinhood"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="icons/uniswap.svg" alt="" />
+              Buy
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="wrap foot-inner">
+        <a class="mark" href="#hero">
+          <span class="mark-seed">
+            <img src="logo.webp" alt="" />
+          </span>
+          <span class="mark-name">Almond</span>
+        </a>
+        <p>Almonds are better than AI. Robinhood Chain.</p>
+        <div class="foot-links">
+          <a
+            href="https://x.com/almondai_rh"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X"
+          >
+            <img src="icons/x.svg" alt="" />
+          </a>
+          <a
+            href="https://dexscreener.com/robinhood"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Dexscreener"
+          >
+            <img src="icons/dexscreener.svg" alt="" />
+          </a>
+          <a
+            href="https://app.uniswap.org/swap?chain=robinhood"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Uniswap"
+          >
+            <img src="icons/uniswap.svg" alt="" />
+          </a>
+          <a
+            href="https://robinhoodchain.blockscout.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Blockscout"
+          >
+            <img src="icons/blockscout.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
